@@ -1,2 +1,3 @@
 # recipe-page
-[!tip] this page based on challenge in frontend mentors website
+>[!TIP]
+> this page based on challenge in frontend mentors website
