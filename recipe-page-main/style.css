@@ -1,0 +1,50 @@
+:root{
+    --Stone-100: hsl(30, 54%, 90%);
+--Stone-150: hsl(30, 18%, 87%);
+--Stone-600: hsl(30, 10%, 34%);
+--Stone-900: hsl(24, 5%, 18%);
+--Brown-800: hsl(14, 45%, 36%);
+--Rose-800: hsl(332, 51%, 32%);
+--Rose-50: hsl(330, 100%, 98%);
+}
+.image{
+    text-align: center;
+}
+h3{
+    color: var(--Brown-800);
+}
+.container{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media(max-width:767px){
+    .image .container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
+.image img{
+    max-width: 100%;
+    border-radius: 15px;
+}
+.prep{
+    margin-top: 10px;
+}
+.prep .list{
+    background-color: var(--Rose-50) ;
+    border-radius: 15px;
+    padding: 15px;
+}
+.instructions h5{
+    display: inline;
+}
+.nut{
+    width: 100%;
+}
+table{
+    display: block;
+}
